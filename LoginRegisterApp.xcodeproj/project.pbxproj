@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72585A519CAA0B8CACFF4D6 /* Pods_LoginRegisterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFB551CFD39E499AED0693E /* Pods_LoginRegisterApp.framework */; };
 		FED565EA280DB85800306698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED565E9280DB85800306698 /* AppDelegate.swift */; };
 		FED565EC280DB85800306698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED565EB280DB85800306698 /* SceneDelegate.swift */; };
 		FED565EE280DB85800306698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED565ED280DB85800306698 /* ViewController.swift */; };
 		FED565F1280DB85800306698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED565EF280DB85800306698 /* Main.storyboard */; };
 		FED565F3280DB85E00306698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED565F2280DB85E00306698 /* Assets.xcassets */; };
 		FED565F6280DB85E00306698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED565F4280DB85E00306698 /* LaunchScreen.storyboard */; };
+		FED565FE280DD1EB00306698 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FED565FD280DD1EA00306698 /* GoogleService-Info.plist */; };
+		FED56600280DD57400306698 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED565FF280DD57400306698 /* SignUpViewController.swift */; };
+		FED56602280DD57E00306698 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED56601280DD57E00306698 /* LoginViewController.swift */; };
+		FEE98E68280E84B40070D023 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FED56607280DDE9E00306698 /* SF-Pro-Display-Semibold.otf */; };
+		FEE98E69280E84B70070D023 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED56606280DDE9E00306698 /* SFProDisplay-Bold.ttf */; };
+		FEE98E6A280E84BA0070D023 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED56605280DDE9D00306698 /* SFProDisplay-Regular.ttf */; };
+		FEE98E6C280EB6840070D023 /* TextFieldWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE98E6B280EB6840070D023 /* TextFieldWithPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07590645F565124D1E5479AA /* Pods-LoginRegisterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginRegisterApp.release.xcconfig"; path = "Target Support Files/Pods-LoginRegisterApp/Pods-LoginRegisterApp.release.xcconfig"; sourceTree = "<group>"; };
+		AF53AEE16B47EC17B3A4DFAF /* Pods-LoginRegisterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginRegisterApp.debug.xcconfig"; path = "Target Support Files/Pods-LoginRegisterApp/Pods-LoginRegisterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FCFB551CFD39E499AED0693E /* Pods_LoginRegisterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginRegisterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED565E6280DB85800306698 /* LoginRegisterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRegisterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED565E9280DB85800306698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED565EB280DB85800306698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		FED565F2280DB85E00306698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED565F5280DB85E00306698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FED565F7280DB85E00306698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED565FD280DD1EA00306698 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FED565FF280DD57400306698 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FED56601280DD57E00306698 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FED56605280DDE9D00306698 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		FED56606280DDE9E00306698 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		FED56607280DDE9E00306698 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		FEE98E6B280EB6840070D023 /* TextFieldWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72585A519CAA0B8CACFF4D6 /* Pods_LoginRegisterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2F32BE02AA58355A7A86A16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF53AEE16B47EC17B3A4DFAF /* Pods-LoginRegisterApp.debug.xcconfig */,
+				07590645F565124D1E5479AA /* Pods-LoginRegisterApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4420D4AB84C862B8365373E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB551CFD39E499AED0693E /* Pods_LoginRegisterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FED565DD280DB85800306698 = {
 			isa = PBXGroup;
 			children = (
 				FED565E8280DB85800306698 /* LoginRegisterApp */,
 				FED565E7280DB85800306698 /* Products */,
+				A2F32BE02AA58355A7A86A16 /* Pods */,
+				D4420D4AB84C862B8365373E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,38 @@
 		FED565E8280DB85800306698 /* LoginRegisterApp */ = {
 			isa = PBXGroup;
 			children = (
+				FEE98E6E280EB6C10070D023 /* Fonts */,
 				FED565E9280DB85800306698 /* AppDelegate.swift */,
+				FED565FD280DD1EA00306698 /* GoogleService-Info.plist */,
 				FED565EB280DB85800306698 /* SceneDelegate.swift */,
-				FED565ED280DB85800306698 /* ViewController.swift */,
+				FEE98E6D280EB6A90070D023 /* Controllers */,
+				FEE98E6B280EB6840070D023 /* TextFieldWithPadding.swift */,
 				FED565EF280DB85800306698 /* Main.storyboard */,
 				FED565F2280DB85E00306698 /* Assets.xcassets */,
 				FED565F4280DB85E00306698 /* LaunchScreen.storyboard */,
 				FED565F7280DB85E00306698 /* Info.plist */,
 			);
 			path = LoginRegisterApp;
+			sourceTree = "<group>";
+		};
+		FEE98E6D280EB6A90070D023 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FED565ED280DB85800306698 /* ViewController.swift */,
+				FED56601280DD57E00306698 /* LoginViewController.swift */,
+				FED565FF280DD57400306698 /* SignUpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FEE98E6E280EB6C10070D023 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FED56605280DDE9D00306698 /* SFProDisplay-Regular.ttf */,
+				FED56606280DDE9E00306698 /* SFProDisplay-Bold.ttf */,
+				FED56607280DDE9E00306698 /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FED565FA280DB85E00306698 /* Build configuration list for PBXNativeTarget "LoginRegisterApp" */;
 			buildPhases = (
+				66F009312B4D594038AE17E5 /* [CP] Check Pods Manifest.lock */,
 				FED565E2280DB85800306698 /* Sources */,
 				FED565E3280DB85800306698 /* Frameworks */,
 				FED565E4280DB85800306698 /* Resources */,
+				5264A45124EB0A6B55D726F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED565F6280DB85E00306698 /* LaunchScreen.storyboard in Resources */,
+				FED565FE280DD1EB00306698 /* GoogleService-Info.plist in Resources */,
+				FEE98E68280E84B40070D023 /* SF-Pro-Display-Semibold.otf in Resources */,
+				FEE98E6A280E84BA0070D023 /* SFProDisplay-Regular.ttf in Resources */,
+				FEE98E69280E84B70070D023 /* SFProDisplay-Bold.ttf in Resources */,
 				FED565F3280DB85E00306698 /* Assets.xcassets in Resources */,
 				FED565F1280DB85800306698 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +200,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5264A45124EB0A6B55D726F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginRegisterApp/Pods-LoginRegisterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginRegisterApp/Pods-LoginRegisterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginRegisterApp/Pods-LoginRegisterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F009312B4D594038AE17E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginRegisterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FED565E2280DB85800306698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FED565EE280DB85800306698 /* ViewController.swift in Sources */,
+				FEE98E6C280EB6840070D023 /* TextFieldWithPadding.swift in Sources */,
 				FED565EA280DB85800306698 /* AppDelegate.swift in Sources */,
+				FED56600280DD57400306698 /* SignUpViewController.swift in Sources */,
+				FED56602280DD57E00306698 /* LoginViewController.swift in Sources */,
 				FED565EC280DB85800306698 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +394,7 @@
 		};
 		FED565FB280DB85E00306698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF53AEE16B47EC17B3A4DFAF /* Pods-LoginRegisterApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +412,7 @@
 		};
 		FED565FC280DB85E00306698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07590645F565124D1E5479AA /* Pods-LoginRegisterApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
